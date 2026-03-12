@@ -1,11 +1,10 @@
-﻿namespace MqsCleanArchitectureTemplates.BDD.Features.Employee
-{
-    public class ClientFeature
-    {
-        [Fact]
-        public void Test1()
-        {
+﻿using TechTalk.SpecFlow;
 
-        }
+namespace MqsCleanArchitectureTemplates.BDD.Features.Employee
+{
+    [Binding]
+    public class RegisterEmployeeSteps
+    {
+        
     }
 }
