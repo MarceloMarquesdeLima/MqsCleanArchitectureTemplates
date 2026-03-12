@@ -1,0 +1,6 @@
+@MqsCleanArchitectureTemplates.WebApi_HostAddress = http://localhost:5168
+
+GET {{MqsCleanArchitectureTemplates.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

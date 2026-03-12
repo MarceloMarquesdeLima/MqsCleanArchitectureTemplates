@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MqsCleanArchitectureTemplates.Application/MqsCleanArchitectureTemplates.Application.csproj" />
+    <Project Path="src/MqsCleanArchitectureTemplates.Domain/MqsCleanArchitectureTemplates.Domain.csproj" />
+    <Project Path="src/MqsCleanArchitectureTemplates.Infrastructure/MqsCleanArchitectureTemplates.Infrastructure.csproj" />
+    <Project Path="src/MqsCleanArchitectureTemplates.WebApi/MqsCleanArchitectureTemplates.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/BDD/">
+    <Project Path="tests/BDD/MqsCleanArchitectureTemplates.BDD/MqsCleanArchitectureTemplates.BDD.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegraationTests/">
+    <Project Path="tests/IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/TestDrivenDevelopment/">
+    <Project Path="tests/TDD/MqsCleanArchitectureTemplates.TDD/MqsCleanArchitectureTemplates.TDD.csproj" />
+  </Folder>
+  <Folder Name="/tests/Units/">
+    <Project Path="tests/Units/MqsCleanArchitectureTemplates.TestsUnit/MqsCleanArchitectureTemplates.TestsUnit.csproj" />
+  </Folder>
+</Solution>
