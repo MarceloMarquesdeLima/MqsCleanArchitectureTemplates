@@ -15,7 +15,7 @@ os dados do formulario de Cadastro
 		| Data de Nascimento   |
 		| E-mail               |
 Ao clicar no botão Salvar/Adicionar
-Então Ele será redirecionado para a tela de cadastro do sistema com uma mensagem de cadastro realizado com sucesso, 
+Será redirecionado para a tela de cadastro do sistema com uma mensagem de cadastro realizado com sucesso, 
 e o funcinário será adicionado a lista de funcinário do sistema, e o usuário poderá visualizar o funcinário cadastrado na 
 lista de funcinário do sistema, e o funcinário estará disponível para utilização em diversos processo e também divulgação de aniversário do funcinário.
 
