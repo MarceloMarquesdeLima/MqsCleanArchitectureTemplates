@@ -25,19 +25,19 @@ In .NET Core and .NET 8+, applications must be scalable, testable, and adaptable
 ### Business Logic at the Center — The domain layer is the heart of the application.
 # Layered Structure in Clean Architecture
 ## 1. Domain Layer (Entities)
-### Contains business models and rules.
-### Pure C# classes with no external dependencies.
+### 1.1 Contains business models and rules.
+### 1.2 Pure C# classes with no external dependencies.
 ## 2. Application Layer (Use Cases)
-### Defines application logic (e.g., CQRS, MediatR).
-### Contains interfaces for repositories and services.
+### 2.1 Defines application logic (e.g., CQRS, MediatR).
+### 2.2 Contains interfaces for repositories and services.
 ## 3. Infrastructure Layer
-### Implements external concerns:
-### Database (EF Core, Dapper)
-### APIs, Email, File Storage
-### Depends on the Application Layer, not the other way around.
+### 3.1 Implements external concerns:
+### 3.2 Database (EF Core, Dapper)
+### 3.3 APIs, Email, File Storage
+### 3.4 Depends on the Application Layer, not the other way around.
 ## 4. Presentation Layer (UI)
-### ASP.NET Core Web API / MVC / Blazor
-### Minimal logic; delegates work to the Application Layer.
+### 4.1 ASP.NET Core Web API / MVC / Blazor
+### 4.2 Minimal logic; delegates work to the Application Layer.
 
 # Testes de Software
 
