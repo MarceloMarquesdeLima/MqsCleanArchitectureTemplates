@@ -1,4 +1,4 @@
-# Mqs Clean Architecture Templates
+# MQS Clean Architecture Templates
 
 #### Introduced by Robert C. Martin (Uncle Bob), clean architecture is a software design philosophy emphasizing the separation of concerns, testability, and maintainability. It organizes a system into layers with clear boundaries, ensuring that business logic remains independent of frameworks, databases, or UI.
 
