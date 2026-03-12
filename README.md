@@ -6,12 +6,18 @@
     In .NET Core and .NET 8+, applications must be scalable, testable, and adaptable to changing business needs. Clean Architecture helps by:
 
     ## Decoupling business rules from infrastructure.
+
     ## Making testing easier (unit, integration, and end-to-end).
+
     ## Reducing technical debt by enforcing clear boundaries.
     ## Real-World Benefits
+
     ## Scalability — Easy to extend without breaking existing code.
+
     ## Testability — Business logic can be tested in isolation.
+    
     ## Maintainability — Clear structure reduces spaghetti code.
+
     # Core Principles of Clean Architecture
         ### Independence of Frameworks — Avoid tight coupling with ASP.NET Core, Entity Framework, etc.
         ### Testability at All Levels — Business logic should be testable without databases or UI.
