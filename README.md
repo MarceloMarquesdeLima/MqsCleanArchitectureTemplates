@@ -1,4 +1,4 @@
-# MqsCleanArchitectureTempates
+# MqsCleanArchitectureTemplates
     Compreendendo a Clean Architecture na prática
 
 # Testes de Software
