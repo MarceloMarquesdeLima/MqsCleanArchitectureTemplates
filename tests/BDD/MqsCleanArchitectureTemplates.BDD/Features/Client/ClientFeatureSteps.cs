@@ -5,7 +5,7 @@ using Assert = Xunit.Assert;
 
 namespace MqsCleanArchitectureTemplates.BDD.Features.Client
 {
-    public class ClientFeature
+    public class ClientFeatureSteps
     {
         [Binding]
         public class ClientSteps
