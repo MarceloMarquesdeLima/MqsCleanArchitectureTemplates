@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/Apis/">
-    <Project Path="Api/src/MqsCleanArchitectureTemplates.Application/MqsCleanArchitectureTemplates.Application.csproj" />
+    <Project Path="Api/src/MqsCleanArchitectureTemplates.Application/MqsCleanArchitectureTemplates.Application.csproj">
+      <BuildDependency Project="Api/src/MqsCleanArchitectureTemplates.WebApi/MqsCleanArchitectureTemplates.WebApi.csproj" />
+      <BuildDependency Project="Apps/MqsCleanArchitectureTemplates.Apps/MqsCleanArchitectureTemplates.Apps.csproj" />
+    </Project>
     <Project Path="Api/src/MqsCleanArchitectureTemplates.Domain/MqsCleanArchitectureTemplates.Domain.csproj" />
     <Project Path="Api/src/MqsCleanArchitectureTemplates.Infrastructure/MqsCleanArchitectureTemplates.Infrastructure.csproj" />
     <Project Path="Api/src/MqsCleanArchitectureTemplates.WebApi/MqsCleanArchitectureTemplates.WebApi.csproj" />
