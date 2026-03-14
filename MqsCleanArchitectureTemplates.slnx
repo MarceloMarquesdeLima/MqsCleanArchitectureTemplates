@@ -1,21 +1,17 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/MqsCleanArchitectureTemplates.Application/MqsCleanArchitectureTemplates.Application.csproj" />
-    <Project Path="src/MqsCleanArchitectureTemplates.Domain/MqsCleanArchitectureTemplates.Domain.csproj" />
-    <Project Path="src/MqsCleanArchitectureTemplates.Infrastructure/MqsCleanArchitectureTemplates.Infrastructure.csproj" />
-    <Project Path="src/MqsCleanArchitectureTemplates.WebApi/MqsCleanArchitectureTemplates.WebApi.csproj" />
+  <Folder Name="/Apis/">
+    <Project Path="Api/src/MqsCleanArchitectureTemplates.Application/MqsCleanArchitectureTemplates.Application.csproj" />
+    <Project Path="Api/src/MqsCleanArchitectureTemplates.Domain/MqsCleanArchitectureTemplates.Domain.csproj" />
+    <Project Path="Api/src/MqsCleanArchitectureTemplates.Infrastructure/MqsCleanArchitectureTemplates.Infrastructure.csproj" />
+    <Project Path="Api/src/MqsCleanArchitectureTemplates.WebApi/MqsCleanArchitectureTemplates.WebApi.csproj" />
   </Folder>
-  <Folder Name="/tests/" />
-  <Folder Name="/tests/BDD/">
-    <Project Path="tests/BDD/MqsCleanArchitectureTemplates.BDD/MqsCleanArchitectureTemplates.BDD.csproj" />
+  <Folder Name="/Apps/">
+    <Project Path="Apps/MqsCleanArchitectureTemplates.Apps/MqsCleanArchitectureTemplates.Apps.csproj" Id="e81d7e92-60a2-4a86-9847-4332c779e5f9" />
   </Folder>
-  <Folder Name="/tests/IntegraationTests/">
-    <Project Path="tests/IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests.csproj" />
-  </Folder>
-  <Folder Name="/tests/TestDrivenDevelopment/">
-    <Project Path="tests/TDD/MqsCleanArchitectureTemplates.TDD/MqsCleanArchitectureTemplates.TDD.csproj" />
-  </Folder>
-  <Folder Name="/tests/Units/">
-    <Project Path="tests/Units/MqsCleanArchitectureTemplates.TestsUnit/MqsCleanArchitectureTemplates.TestsUnit.csproj" />
+  <Folder Name="/Tests/">
+    <Project Path="Api/tests/BDD/MqsCleanArchitectureTemplates.BDD/MqsCleanArchitectureTemplates.BDD.csproj" />
+    <Project Path="Api/tests/IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests/MqsCleanArchitectureTemplates.IntegrationsTests.csproj" />
+    <Project Path="Api/tests/TDD/MqsCleanArchitectureTemplates.TDD/MqsCleanArchitectureTemplates.TDD.csproj" />
+    <Project Path="Api/tests/Units/MqsCleanArchitectureTemplates.TestsUnit/MqsCleanArchitectureTemplates.TestsUnit.csproj" />
   </Folder>
 </Solution>

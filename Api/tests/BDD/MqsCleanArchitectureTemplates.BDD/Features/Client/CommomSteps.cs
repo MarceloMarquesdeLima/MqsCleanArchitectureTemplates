@@ -10,5 +10,6 @@ namespace MqsCleanArchitectureTemplates.BDD.Features.Client
     [CollectionDefinition(nameof(AutomacaoWebFixtureCollection))]
     public class CommomSteps
     {
+
     }
 }
